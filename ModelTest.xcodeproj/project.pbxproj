@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0B1C4396A59703569BA333DE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A8C4AC0277444413118FB4 /* libPods.a */; };
+		A103EB601B6733BE004C5890 /* MJModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A103EB5F1B6733BE004C5890 /* MJModel.m */; };
+		A103EB641B675BD2004C5890 /* Main.m in Sources */ = {isa = PBXBuildFile; fileRef = A103EB631B675BD2004C5890 /* Main.m */; };
+		A103EB671B67649C004C5890 /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = A103EB661B67649C004C5890 /* Weather.m */; };
 		A191F1071B663C95003F6592 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A191F1061B663C95003F6592 /* main.m */; };
 		A191F10A1B663C95003F6592 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A191F1091B663C95003F6592 /* AppDelegate.m */; };
 		A191F10D1B663C95003F6592 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A191F10C1B663C95003F6592 /* ViewController.m */; };
@@ -30,6 +33,13 @@
 /* Begin PBXFileReference section */
 		09A39E7009FF0FC92E7FB356 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		35A8C4AC0277444413118FB4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A103EB5C1B672900004C5890 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A103EB5E1B6733BE004C5890 /* MJModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJModel.h; path = ../MJModel.h; sourceTree = "<group>"; };
+		A103EB5F1B6733BE004C5890 /* MJModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJModel.m; path = ../MJModel.m; sourceTree = "<group>"; };
+		A103EB621B675BD2004C5890 /* Main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main.h; sourceTree = "<group>"; };
+		A103EB631B675BD2004C5890 /* Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main.m; sourceTree = "<group>"; };
+		A103EB651B67649C004C5890 /* Weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weather.h; sourceTree = "<group>"; };
+		A103EB661B67649C004C5890 /* Weather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weather.m; sourceTree = "<group>"; };
 		A191F1011B663C95003F6592 /* ModelTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModelTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A191F1051B663C95003F6592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A191F1061B663C95003F6592 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -74,6 +84,19 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A103EB611B675B97004C5890 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				A103EB5E1B6733BE004C5890 /* MJModel.h */,
+				A103EB5F1B6733BE004C5890 /* MJModel.m */,
+				A103EB621B675BD2004C5890 /* Main.h */,
+				A103EB631B675BD2004C5890 /* Main.m */,
+				A103EB651B67649C004C5890 /* Weather.h */,
+				A103EB661B67649C004C5890 /* Weather.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
 		A191F0F81B663C95003F6592 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +120,7 @@
 		A191F1031B663C95003F6592 /* ModelTest */ = {
 			isa = PBXGroup;
 			children = (
+				A103EB611B675B97004C5890 /* MJExtension */,
 				A191F1081B663C95003F6592 /* AppDelegate.h */,
 				A191F1091B663C95003F6592 /* AppDelegate.m */,
 				A191F10B1B663C95003F6592 /* ViewController.h */,
@@ -114,6 +138,7 @@
 			children = (
 				A191F1051B663C95003F6592 /* Info.plist */,
 				A191F1061B663C95003F6592 /* main.m */,
+				A103EB5C1B672900004C5890 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -278,6 +303,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A103EB671B67649C004C5890 /* Weather.m in Sources */,
+				A103EB641B675BD2004C5890 /* Main.m in Sources */,
+				A103EB601B6733BE004C5890 /* MJModel.m in Sources */,
 				A191F10D1B663C95003F6592 /* ViewController.m in Sources */,
 				A191F10A1B663C95003F6592 /* AppDelegate.m in Sources */,
 				A191F1071B663C95003F6592 /* main.m in Sources */,
@@ -407,6 +435,8 @@
 			baseConfigurationReference = ADBF3FD526D675979E9934F6 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ModelTest/PrefixHeader.pch;
 				INFOPLIST_FILE = ModelTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -418,6 +448,8 @@
 			baseConfigurationReference = 09A39E7009FF0FC92E7FB356 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ModelTest/PrefixHeader.pch;
 				INFOPLIST_FILE = ModelTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
