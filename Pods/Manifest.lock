@@ -20,14 +20,17 @@ PODS:
   - AFNetworking/UIKit (2.5.4):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - JSONModel (1.1.0)
   - MJExtension (2.5.3)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.5.4)
+  - JSONModel
   - MJExtension
 
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  JSONModel: ec77e9865236a7a09d9cf7668df6b4b328d9ec1d
   MJExtension: d636ed42d1af44cba81106ae7831cccb66906eb7
 
 COCOAPODS: 0.37.1

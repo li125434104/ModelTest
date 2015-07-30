@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "MJModel.h"
 #import "Weather.h"
+#import "JSModel.h"
+
 @interface ViewController ()
 
 @end
@@ -38,6 +40,25 @@
                                }
     }];
     
+}
+- (IBAction)JsonModelClick:(UIButton *)sender {
+    NSURL *url = [NSURL URLWithString:@"http://api.openweathermap.org/data/2.5/weather?lat=37.785834&lon=-122.406417&units=imperial"];
+    
+    [NSURLConnection sendAsynchronousRequest:[NSURLRequest requestWithURL:url]
+                                       queue:[NSOperationQueue mainQueue]
+                           completionHandler:^(NSURLResponse* response, NSData* data, NSError* connectionError){
+                               if (!connectionError) {
+                                   NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data
+                                                                                        options:NSJSONReadingMutableContainers
+                                                                                          error:nil];
+                                   
+                                   JSModel *model = [[JSModel alloc] initWithDictionary:dict error:nil];
+                                   
+                                   NSLog(@"%@",model);
+                                   
+                               }
+                           }];
+
 }
 
 - (void)didReceiveMemoryWarning {
