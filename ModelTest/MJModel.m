@@ -24,4 +24,18 @@
              };
 }
 
++ (void)requestAPIonSucceed:(NetworkSuccessBlock)successBlock onFailure:(NetworkFailureBlock)failureBlock {
+    
+    NetworkSuccessBlock theSuccessBlock = ^(id data) {
+        successBlock(data);
+    };
+    
+    NetworkFailureBlock theFailureBlock = ^(NSError *error) {
+        failureBlock(error);
+    };
+    
+    [LXJNetworkEngine requestDataAPI:testApi method:GET params:nil customHeaderField:nil onSuccess:theSuccessBlock onFailure:theFailureBlock];
+}
+
+
 @end

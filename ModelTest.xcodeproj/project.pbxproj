@@ -11,6 +11,8 @@
 		A103EB601B6733BE004C5890 /* MJModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A103EB5F1B6733BE004C5890 /* MJModel.m */; };
 		A103EB641B675BD2004C5890 /* Main.m in Sources */ = {isa = PBXBuildFile; fileRef = A103EB631B675BD2004C5890 /* Main.m */; };
 		A103EB671B67649C004C5890 /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = A103EB661B67649C004C5890 /* Weather.m */; };
+		A1616AF31B79A23E004B69C8 /* networkTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A1616AF21B79A23E004B69C8 /* networkTestModel.m */; };
+		A1616AF61B79A34B004B69C8 /* productModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A1616AF51B79A34B004B69C8 /* productModel.m */; };
 		A191F1071B663C95003F6592 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A191F1061B663C95003F6592 /* main.m */; };
 		A191F10A1B663C95003F6592 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A191F1091B663C95003F6592 /* AppDelegate.m */; };
 		A191F10D1B663C95003F6592 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A191F10C1B663C95003F6592 /* ViewController.m */; };
@@ -21,6 +23,7 @@
 		A1D8BEA11B69D04000B99539 /* JSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D8BEA01B69D04000B99539 /* JSModel.m */; };
 		A1D8BEA41B69D31A00B99539 /* JSWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D8BEA31B69D31A00B99539 /* JSWeather.m */; };
 		A1D8BEA71B69D39100B99539 /* JSMain.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D8BEA61B69D39100B99539 /* JSMain.m */; };
+		A1E271771B78818100B505F6 /* LXJNetworkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E271761B78818100B505F6 /* LXJNetworkEngine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,10 @@
 		A103EB631B675BD2004C5890 /* Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main.m; sourceTree = "<group>"; };
 		A103EB651B67649C004C5890 /* Weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weather.h; sourceTree = "<group>"; };
 		A103EB661B67649C004C5890 /* Weather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weather.m; sourceTree = "<group>"; };
+		A1616AF11B79A23E004B69C8 /* networkTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = networkTestModel.h; sourceTree = "<group>"; };
+		A1616AF21B79A23E004B69C8 /* networkTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = networkTestModel.m; sourceTree = "<group>"; };
+		A1616AF41B79A34B004B69C8 /* productModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = productModel.h; sourceTree = "<group>"; };
+		A1616AF51B79A34B004B69C8 /* productModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = productModel.m; sourceTree = "<group>"; };
 		A191F1011B663C95003F6592 /* ModelTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModelTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A191F1051B663C95003F6592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A191F1061B663C95003F6592 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -62,6 +69,8 @@
 		A1D8BEA31B69D31A00B99539 /* JSWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSWeather.m; sourceTree = "<group>"; };
 		A1D8BEA51B69D39100B99539 /* JSMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSMain.h; sourceTree = "<group>"; };
 		A1D8BEA61B69D39100B99539 /* JSMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSMain.m; sourceTree = "<group>"; };
+		A1E271751B78818100B505F6 /* LXJNetworkEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXJNetworkEngine.h; sourceTree = "<group>"; };
+		A1E271761B78818100B505F6 /* LXJNetworkEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXJNetworkEngine.m; sourceTree = "<group>"; };
 		ADBF3FD526D675979E9934F6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,6 +138,7 @@
 		A191F1031B663C95003F6592 /* ModelTest */ = {
 			isa = PBXGroup;
 			children = (
+				A1E271741B78815F00B505F6 /* Network */,
 				A1D8BE9C1B69CFF100B99539 /* JsonModel */,
 				A103EB611B675B97004C5890 /* MJExtension */,
 				A191F1081B663C95003F6592 /* AppDelegate.h */,
@@ -181,6 +191,19 @@
 				A1D8BEA61B69D39100B99539 /* JSMain.m */,
 			);
 			path = JsonModel;
+			sourceTree = "<group>";
+		};
+		A1E271741B78815F00B505F6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A1E271751B78818100B505F6 /* LXJNetworkEngine.h */,
+				A1E271761B78818100B505F6 /* LXJNetworkEngine.m */,
+				A1616AF11B79A23E004B69C8 /* networkTestModel.h */,
+				A1616AF21B79A23E004B69C8 /* networkTestModel.m */,
+				A1616AF41B79A34B004B69C8 /* productModel.h */,
+				A1616AF51B79A34B004B69C8 /* productModel.m */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		C1088E5925CD2E76F7FB0370 /* Frameworks */ = {
@@ -329,6 +352,9 @@
 				A1D8BEA71B69D39100B99539 /* JSMain.m in Sources */,
 				A103EB671B67649C004C5890 /* Weather.m in Sources */,
 				A103EB641B675BD2004C5890 /* Main.m in Sources */,
+				A1616AF61B79A34B004B69C8 /* productModel.m in Sources */,
+				A1E271771B78818100B505F6 /* LXJNetworkEngine.m in Sources */,
+				A1616AF31B79A23E004B69C8 /* networkTestModel.m in Sources */,
 				A1D8BEA11B69D04000B99539 /* JSModel.m in Sources */,
 				A1D8BEA41B69D31A00B99539 /* JSWeather.m in Sources */,
 				A103EB601B6733BE004C5890 /* MJModel.m in Sources */,

@@ -7,6 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "LXJNetworkEngine.h"
+
 @class Main;
 
 @interface MJModel : NSObject
@@ -17,4 +19,7 @@
 @property (strong, nonatomic) NSNumber *visibility;
 @property (strong, nonatomic) Main *main;
 @property (strong, nonatomic) NSArray *weather;
+
++ (void)requestAPIonSucceed:(NetworkSuccessBlock)successBlock onFailure:(NetworkFailureBlock)failureBlock;
+
 @end

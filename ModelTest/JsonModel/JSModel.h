@@ -19,4 +19,6 @@
 @property (strong, nonatomic) JSMain   *main;
 @property (strong, nonatomic) NSArray <JSWeather>* weather;
 
+
+
 @end
