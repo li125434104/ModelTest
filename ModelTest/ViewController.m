@@ -11,7 +11,7 @@
 #import "Weather.h"
 #import "JSModel.h"
 #import "LXJNetworkEngine.h"
-#import "networkTestModel.h"
+#import "NetworkTestModel.h"
 
 @interface ViewController ()
 
@@ -83,7 +83,7 @@
         NSArray *temp = [data objectForKey:@"data"];
         
         for (int i = 0; i < [temp count]; i++) {
-            networkTestModel *model = [networkTestModel objectWithKeyValues:temp[i]];
+            NetworkTestModel *model = [NetworkTestModel objectWithKeyValues:temp[i]];
             [self.dataArray addObject:model];
         }
         
@@ -93,7 +93,7 @@
         NSLog(@"error%@",error);
     };
     
-    [networkTestModel requesetOrderListWithOrderStatus:@"0" onSucceed:successBlock onFailure:failureBlock];
+    [NetworkTestModel requesetOrderListWithOrderStatus:@"0" onSucceed:successBlock onFailure:failureBlock];
     
 }
 

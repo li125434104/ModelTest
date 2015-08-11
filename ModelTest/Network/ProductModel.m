@@ -7,8 +7,8 @@
 //  Copyright (c) 2015年 GOME. All rights reserved.
 //
 
-#import "productModel.h"
+#import "ProductModel.h"
 
-@implementation productModel
+@implementation ProductModel
 
 @end

@@ -6,9 +6,9 @@
 //  Copyright (c) 2015年 GOME. All rights reserved.
 //
 
-#import "networkTestModel.h"
+#import "NetworkTestModel.h"
 
-@implementation networkTestModel
+@implementation NetworkTestModel
 
 + (NSDictionary *)objectClassInArray {
     return @{

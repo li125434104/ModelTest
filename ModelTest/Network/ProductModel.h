@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "LXJNetworkEngine.h"
 
-@interface productModel : NSObject
+@interface ProductModel : NSObject
 
 @property (assign, nonatomic) int productCount;
 @property (strong, nonatomic) NSString *productId;        // 商品id

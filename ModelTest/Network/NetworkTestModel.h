@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "LXJNetworkEngine.h"
 
-@interface networkTestModel : NSObject
+@interface NetworkTestModel : NSObject
 
 @property (assign, nonatomic) int       orderStatus;//订单状态
 @property (strong, nonatomic) NSString  *orderId;//订单编号
